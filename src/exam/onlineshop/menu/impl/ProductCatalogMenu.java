@@ -41,13 +41,13 @@ public class ProductCatalogMenu implements Menu {
                 System.out.println("Product " + product.getProductName() + "  has been added to your cart. " +
                         "If you want to add a new product - enter the product id. \n" +
                         "If you want to proceed with checkout - enter word \"checkout\" to console");
-                start();
+                this.start();
             }
         } else {
             System.out.println("Please, enter product ID if you want to add product to cart. " +
                     "Or enter \"checkout\" if you want to proceed with checkout. \n" +
                     "Or enter \"menu\" if you want to navigate back to the main menu.");
-            start();
+            this.start();
         }
     }
 
