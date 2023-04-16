@@ -18,7 +18,7 @@ public class ChangeEmailMenu implements Menu {
         Scanner sc = new Scanner(System.in);
         String newEmail = sc.next();
         context.getLoggedInUser().setEmail(newEmail);
-        System.out.println("Your email has been successfully changed.");
+        System.out.println("Your email has been successfully changed, thank you.");
         context.getMainMenu().start();
     }
 
